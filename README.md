@@ -1,7 +1,5 @@
 
 ---
-# 🎬 MovieTasteFlicks – Movie Recommendation System
-
 # 🎬 **MovieTasteFlicks** – Movie Recommendation System
 
 <p align="left">
