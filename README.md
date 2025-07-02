@@ -2,6 +2,26 @@
 ---
 # 🎬 MovieTasteFlicks – Movie Recommendation System
 
+# 🎬 **MovieTasteFlicks** – Movie Recommendation System
+
+<p align="left">
+  <img src="https://img.shields.io/badge/status-Beta-yellow.svg" alt="Status Badge"/>
+  <img src="https://img.shields.io/github/license/arshc0der/MovieTasteFlicks-Movie-Recommendation-Flask?color=green" alt="License Badge"/>
+  <img src="https://img.shields.io/badge/platform-Web-blue.svg" alt="Platform Badge"/>
+  <img src="https://img.shields.io/badge/language-Python-%233776AB.svg" alt="Language Badge"/>
+  <img src="https://img.shields.io/badge/ML-KMeans-%2370D0A5.svg" alt="ML Badge"/>
+  <img src="https://img.shields.io/badge/Flask-%231572B6.svg" alt="Flask Badge"/>
+  <img src="https://img.shields.io/badge/Frontend-HTML/CSS-%23E34F26.svg" alt="Frontend Badge"/>
+  <img src="https://img.shields.io/badge/Hosting-Render-brightgreen.svg" alt="Hosting Badge"/>
+  <img src="https://img.shields.io/badge/Dependencies-pip-blue.svg" alt="Dependencies Badge"/>
+  <img src="https://img.shields.io/github/stars/arshc0der/MovieTasteFlicks-Movie-Recommendation-Flask?style=social" alt="Stars Badge"/>
+  <img src="https://img.shields.io/github/forks/arshc0der/MovieTasteFlicks-Movie-Recommendation-Flask?style=social" alt="Forks Badge"/>
+</p>
+
+[![Last Commit](https://img.shields.io/github/last-commit/arshc0der/MovieTasteFlicks-Movie-Recommendation-Flask)](https://github.com/arshc0der/MovieTasteFlicks-Movie-Recommendation-Flask/commits/main)
+
+---
+
 **MovieTasteFlicks** is an interactive web app that recommends similar movies based on user input. It uses **KMeans Clustering** on a dataset of over 45,000 movies to suggest titles that match genre, popularity, and rating patterns.
 
 > 💡 Built using **Flask**, **Pandas**, and **scikit-learn**, this app helps users find great movie suggestions in seconds!
