@@ -1,10 +1,5 @@
-import joblib
 import pandas as pd
 
-# Correct paths to model files
-kmeans = joblib.load("movie_recommender/kmeans_model.pkl")
-scaler = joblib.load("movie_recommender/scaler.pkl")
-mlb = joblib.load("movie_recommender/mlb.pkl")
 movies = pd.read_csv("movie_recommender/clustered_movies.csv")
 
 def recommend_movies(title, n=10):
