@@ -1,6 +1,11 @@
 import pandas as pd
+import os
 
-movies = pd.read_csv("movie_recommender/clustered_movies.csv")
+# Get the directory of the current script
+current_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(current_dir, "clustered_movies.csv")
+
+movies = pd.read_csv(csv_path)
 
 def recommend_movies(title, n=10):
     title = title.strip().lower()

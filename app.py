@@ -11,7 +11,12 @@ def home():
 def recommend():
     movie_title = request.form.get('movie_title')
     recommendations = recommend_movies(movie_title, n=5)
-    return render_template('index.html', recommendations=recommendations, input_title=movie_title)
+    
+    error_message = None
+    if not recommendations:
+        error_message = f"Movie '{movie_title}' not found in our database. Try another movie!"
+    
+    return render_template('index.html', recommendations=recommendations, input_title=movie_title, error_message=error_message)
 
 if __name__ == '__main__':
     app.run(debug=True)

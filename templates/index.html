@@ -30,6 +30,12 @@
                 <!--Div recommendation start here -->
                 <h2>Recommended Movies:</h2>
                 <div id="Recommendation_movie_conatiner">
+                <!-- Error Message -->
+                {% if error_message %}
+                <div style="color: #ff6b6b; font-size: 18px; margin: 20px 0; padding: 15px; background-color: #ffe0e0; border-radius: 5px;">
+                    {{ error_message }}
+                </div>
+                {% endif %}
                 <!-- Recommendation Results -->
                 {% if recommendations %}
                 <div class="recommendation_list">
