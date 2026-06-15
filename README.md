@@ -1,6 +1,6 @@
 
 ---
-# 🎬 **MovieTasteFlicks** – Movie Recommendation System
+# 🎬 **MoviePluse** – Movie Recommendation System
 
 <p align="left">
   <img src="https://img.shields.io/badge/status-Beta-yellow.svg" alt="Status Badge"/>
@@ -20,7 +20,7 @@
 
 ---
 
-**MovieTasteFlicks** is an interactive web app that recommends similar movies based on user input. It uses **KMeans Clustering** on a dataset of over 45,000 movies to suggest titles that match genre, popularity, and rating patterns.
+**MoviePluse** is an interactive web app that recommends similar movies based on user input. It uses **KMeans Clustering** on a dataset of over 45,000 movies to suggest titles that match genre, popularity, and rating patterns.
 
 > 💡 Built using **Flask**, **Pandas**, and **scikit-learn**, this app helps users find great movie suggestions in seconds!
 
